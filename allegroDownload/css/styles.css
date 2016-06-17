@@ -320,17 +320,29 @@ h3.menu-item-title {
     }
 .navbar-brand h1 { /* Website name */  
   font-size: 1.3em;
-  line-height: 70%
+  line-height: 70%;
+    
 }
 .navbar-brand h3 {
   font-size: .9em;
-    line-height: 70%
+    line-height: 70%;
 }
+   
+
   /* End Header */
   /* Home Page */
   .container .jumbotron {
     background: url('../images/jumbotron_768.jpg') no-repeat;
     height: 432px;
+  }
+#call-btn > a {
+    font-size: 1.0em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #e7e7e7;
+    background-color: #000;
+    color: #e7e7e7;
   }
   /* End Home Page */
 }
@@ -339,10 +351,10 @@ h3.menu-item-title {
 @media (max-width: 767px) {
   /* Header */
      #logo-img {
-    background: url('../images/silverLogoExtraSmall.jpg') no-repeat;
-    width: 65px;
-    height: 35px;
-    margin: 10px 3px 3px 10px;
+    background: url('../images/black.jpg') no-repeat;
+    width: 1px;
+    height: 1px;
+    
   }
     #navbar-header-div{
      width: 90px;
@@ -353,15 +365,27 @@ h3.menu-item-title {
     }
 .navbar-brand h1 { /* Website name */  
   font-size: 1.0em;
-  line-height: 60%
+  line-height: 60%;
+    text-align: center;
 }
 .navbar-brand h3 {
   font-size: .8em;
     line-height: 60%
 }
+ #small-to-center{
+        text-align: center;
+    }
 
   /* End Header */
-
+#call-btn > a {
+    font-size: 1.0em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #e7e7e7;
+    background-color: #000;
+    color: #e7e7e7;
+  }
   /* Footer */
   .panel-footer section {
     margin-bottom: 30px;
@@ -395,38 +419,5 @@ h3.menu-item-title {
     text-align: center;;
   }
 }
-
-
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
-@media (max-width: 479px) {
-  /* Header */
-  .navbar-brand h1 { /* Restaurant name */
-    padding-top: 5px;
-    font-size: 6vw;
-  font-size: .8em;
-  line-height: 60%
-}
-.navbar-brand h3 {
-  font-size: .7em;
-    line-height: 60%
-}
-  /* End Header */
-  
-  /* Home page */
-  #menu-tile, #specials-tile {
-    width: 280px;
-    margin: 0 auto 15px;
-  }
-
-  .col-xxs-12 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    float: left;
-    width: 100%;
-  }
-}
-
 
 
